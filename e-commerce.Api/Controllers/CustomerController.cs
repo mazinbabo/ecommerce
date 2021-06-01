@@ -40,7 +40,6 @@ namespace e_commerce.Api.Controllers
             return await _service.GetCustomer(id);
         }
 
-        // POST api/<Books>
         [HttpPost]
         public IActionResult Post(NewCustomerDto newAdressDto)
         {

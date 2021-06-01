@@ -31,14 +31,12 @@ namespace e_commerce.Api.Controllers
         }
 
 
-        // GET api/<Orders>/5
         [HttpGet("{id}")]
         public async Task<AddressDto> Get(int id)
         {
             return await _service.GetAddress(id);
         }
 
-        // POST api/<Books>
         [HttpPost]
         public IActionResult Post(NewAddressDto newAdressDto)
         {

@@ -33,14 +33,12 @@ namespace e_commerce.Api.Controllers
         }
 
 
-        // GET api/<Orders>/5
         [HttpGet("{id}")]
         public async Task<OrderDto> Get(int id)
         {
             return await _orderService.GetOrder(id);
         }
 
-        // POST api/<Books>
         [HttpPost]
         public IActionResult Post(NewOrderDto newOrderDto)
         {
