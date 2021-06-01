@@ -1,0 +1,11 @@
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\bin\Debug\netstandard2.0\e-commerce.Domain.dll
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\obj\Debug\netstandard2.0\e-commerce.Data.csprojAssemblyReference.cache
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\obj\Debug\netstandard2.0\e-commerce.Data.AssemblyInfoInputs.cache
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\obj\Debug\netstandard2.0\e-commerce.Data.AssemblyInfo.cs
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\bin\Debug\netstandard2.0\e-commerce.Data.deps.json
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\bin\Debug\netstandard2.0\e-commerce.Data.dll
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\bin\Debug\netstandard2.0\e-commerce.Data.pdb
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\bin\Debug\netstandard2.0\e-commerce.Domain.pdb
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\obj\Debug\netstandard2.0\e-commerce.Data.csproj.CopyComplete
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\obj\Debug\netstandard2.0\e-commerce.Data.dll
+C:\Users\mazin\source\repos\e-commerce2\e-commerce.Data\obj\Debug\netstandard2.0\e-commerce.Data.pdb

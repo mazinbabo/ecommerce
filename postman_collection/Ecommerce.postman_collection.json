@@ -1,0 +1,238 @@
+{
+	"info": {
+		"_postman_id": "9d63ae0d-090e-4df6-96fb-1f962b89c911",
+		"name": "Ecommerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Order-Post",
+			"protocolProfileBehavior": {
+				"followRedirects": false,
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"CustomerId\":10,\r\n\t\"OrderNo\":15,\r\n\t\"ShippingDate\":1,\r\n\t\"CustomerId\": 15,\r\n\t\"OrderLineItems\":[\r\n\t\t{\r\n            \"Id\":15,\r\n\t\t    \"OrderId\":10,\r\n\t\t\"Quantity\":1}\r\n\t\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44327/Order",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44327",
+					"path": [
+						"Order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order-Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"followRedirects": false,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"CustomerId\":10,\r\n\t\"OrderNo\":15,\r\n\t\"ShippingDate\":1,\r\n\t\"CustomerId\": 15,\r\n\t\"OrderLineItems\":[\r\n\t\t{\r\n            \"Id\":15,\r\n\t\t    \"OrderId\":10,\r\n\t\t\"Quantity\":1}\r\n\t\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44327/Order",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44327",
+					"path": [
+						"Order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adddress-Post",
+			"protocolProfileBehavior": {
+				"followRedirects": false,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"CustomerId\":10,\r\n\t\"OrderNo\":15,\r\n\t\"ShippingDate\":1,\r\n\t\"CustomerId\": 15,\r\n\t\"OrderLineItems\":[\r\n\t\t{\r\n            \"Id\":15,\r\n\t\t    \"OrderId\":10,\r\n\t\t\"Quantity\":1}\r\n\t\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44327/Order",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44327",
+					"path": [
+						"Order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Adddress-Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"followRedirects": false,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"CustomerId\":10,\r\n\t\"OrderNo\":15,\r\n\t\"ShippingDate\":1,\r\n\t\"CustomerId\": 15,\r\n\t\"OrderLineItems\":[\r\n\t\t{\r\n            \"Id\":15,\r\n\t\t    \"OrderId\":10,\r\n\t\t\"Quantity\":1}\r\n\t\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44327/Adddress",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44327",
+					"path": [
+						"Adddress"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer-Post",
+			"protocolProfileBehavior": {
+				"followRedirects": false,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"CustomerId\":10,\r\n\t\"OrderNo\":15,\r\n\t\"ShippingDate\":1,\r\n\t\"CustomerId\": 15,\r\n\t\"OrderLineItems\":[\r\n\t\t{\r\n            \"Id\":15,\r\n\t\t    \"OrderId\":10,\r\n\t\t\"Quantity\":1}\r\n\t\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44327/Order",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44327",
+					"path": [
+						"Order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Customer-Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"followRedirects": false,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44327/Customer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44327",
+					"path": [
+						"Customer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product-Post",
+			"protocolProfileBehavior": {
+				"followRedirects": false,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"CustomerId\":10,\r\n\t\"OrderNo\":15,\r\n\t\"ShippingDate\":1,\r\n\t\"CustomerId\": 15,\r\n\t\"OrderLineItems\":[\r\n\t\t{\r\n            \"Id\":15,\r\n\t\t    \"OrderId\":10,\r\n\t\t\"Quantity\":1}\r\n\t\t]\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44327/Order",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44327",
+					"path": [
+						"Order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product-Get",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {},
+				"followRedirects": false
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44327/Product",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44327",
+					"path": [
+						"Product"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
